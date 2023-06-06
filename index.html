@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="budget-t-heading">
+            <h1 class="main-heading">
+                budgting App
+            </h1>
+        </div>
+        <div class="total-budget">
+            <div class="t-b-box">
+                <h1 class="b-head">total Budget</h1>
+                <input class="t-b-input" type="number" id="user-budget">
+                <button class="t-b-btn" id="set-budget" onclick="SetBudget()">Set Budget</button>
+            </div>
+        </div>
+        <div id="main-expense" class="main-exp">
+            <div class="expense-box-heading">
+                <h3>Add Expense</h3>
+            </div>
+            <div>
+                <h3> Due Date</h3>
+                <input id="due-date" placeholder="DD-MM-YY" class="inputs date" type="date">
+            </div>
+            <div>
+                <h3>Payment*</h3>
+                <input id="Catgory" placeholder="Cost Of Service Provided" class="inputs" type="number">
+            </div>
+            <div>
+                <h3>Description</h3>
+                <input id="Description" class="inputs" type="text">
+            </div>
+            <div class="ex-btn-con">
+                <button onclick="AddExpense()" class="add-e-btn">Add Expense</button>
+            </div>
+        </div>
+        <div class="main-overview">
+            <h3>Overview:</h3>
+            <div class="overview-con">
+                <div class="overview-box budget-box">
+                    <h3 class="heading">total budget</h3>
+                    <h3 class="number" id="total-budget">0</h3>
+                </div>
+                <div class="overview-box total-Expense">
+                    <h3 class="heading">expense</h3>
+                    <h3 class="number" id="total-Expense">0</h3>
+                </div>
+                <div class="overview-box ramming-balance">
+                    <h3 class="heading">balance</h3>
+                    <h3 class="number" id="balance">0</h3>
+                </div>
+            </div>
+        </div>
+        <div id="main-expense-box" class="main-expense-box">
+            <ul class="ex-list" id="exp-list">
+                <h3 class="Expense-list-heading">Expense</h3>
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

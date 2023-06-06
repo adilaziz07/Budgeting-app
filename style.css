@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(16, 17, 44);;
+    margin: 0px;
+}
+.main {
+}
+.budget-t-heading{
+    height: 100px;
+    background-color:rgba(69, 71, 105, 0.804);
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 23px;
+}
+.main-heading {
+    text-transform: uppercase;
+    position: relative;
+    bottom: -20px;
+    color: white;
+}
+
+.total-budget {
+    background-color:rgba(69, 71, 105, 0.804);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px white;
+    border: 2px solid white;
+    width: 20%;
+    margin-left: 30px;
+    display: flex;
+    padding: 10px 0 30px 0;
+}
+
+.t-b-box {
+    margin-left: 20px;
+}
+
+.b-head {
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.t-b-input {
+    width: 70%;
+
+}
+
+.t-b-btn {
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 3px;
+    color: white;
+    background-color: transparent;
+    box-shadow: 2px 2px 5px white;
+}
+
+.main-exp {
+    background-color:rgba(69, 71, 105, 0.804) ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px white;
+    border: 2px solid white;
+    padding: 40px;
+    margin: 60px 0 0 30px;
+    width: 60%;
+}
+
+.multi-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.inputs {
+    width: 70%;
+    height: 30px;
+}
+.ex-btn-con{
+    text-align: center;
+    margin-top: 40px;
+}
+.add-e-btn{
+    padding: 10px;
+    
+}
+/* .date{
+    width: 64%;
+} */
+.main-overview {
+    margin-top: 80px;
+}
+
+.overview-con {
+    margin-left: 30px;
+    background-color:rgba(69, 71, 105, 0.804) ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px white;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    width: 60%;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.overview-box {
+    justify-content: space-around;
+}
+
+.overview-box .heading {
+    text-transform: capitalize;
+    color: white;
+}
+.overview-box .number{
+    color: white;
+    text-align: center;
+}
+.expense-item{
+    background-color:rgba(69, 71, 105, 0.804) ;
+    list-style: none;
+    margin-top: 20px;
+    border: 2px solid white;
+}
+.expense-cont{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.exp-detail .exp-head{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.ex-list{
+    padding: 30px;
+    width: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px white;
+    height: auto;
+    
+}
+.main-expense-box{
+    width: 60%;
+    padding: 40px;
+    margin-top: 40px;
+}
+.expense-box-heading{
+     text-align: center;
+     font-size: 2rem;
+     color: white;
+}
+.Expense-list-heading{
+    text-align: center;
+    color: white;
+}
